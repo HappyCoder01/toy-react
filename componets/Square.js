@@ -1,12 +1,6 @@
 import {ToyReact, Component} from "../ToyReact.js";
 
 export default class Square extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value : null
-    }
-  }
   render() {
     return (
         <button className="square" onClick={this.props.onClick}>
