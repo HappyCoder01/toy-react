@@ -1,7 +1,7 @@
 import {ToyReact} from "./ToyReact.js";
-import Board from "./componets/Board.js";
+import Game from "./componets/Game.js";
 
-let a = <Board />
+let a = <Game />
 ToyReact.render(
     a,
     document.getElementById('root')
